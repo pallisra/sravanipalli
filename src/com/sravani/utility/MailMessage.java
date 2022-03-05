@@ -34,7 +34,7 @@ public class MailMessage {
 	}
 	public static void transactionSuccess(String recipientEmail,String name,String transId,double transAmount) {
 		String recipient = recipientEmail;
-		String subject = "Order Placed at Ellison Electronics";
+		String subject = "Order Placed at Ellison";
 		String htmlTextMessage = 
 				"<html>" + 
 				"  <body>" + 

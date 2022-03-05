@@ -4,7 +4,8 @@ import java.util.List;
 
 import com.prod.sravani.beans.CartBean;
 
-public interface CartDao{
+public interface CartDao  {
+	// ...
 		
 	public String addProductToCart(String userId, String prodId, int prodQty);
 	
